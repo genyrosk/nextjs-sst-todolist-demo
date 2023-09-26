@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply px-3 py-2 text-base rounded-md transition hover:bg-opacity-80 hover:text-opacity-90 no-underline font-semibold;
+    }
+}
